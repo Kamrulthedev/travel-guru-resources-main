@@ -14,7 +14,7 @@ const Navber = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-lg">
+            <div className="navbar  shadow-lg">
             <div className="ml-20">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navber = () => {
                 </div>
 
                 <div className=" flex justify-end ml-80">
-                     <input type="text" className="w-60 border-2 " />
+                     <input type="text" className="w-60 border-2 rounded-lg" />
 
                     <div className=" hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
